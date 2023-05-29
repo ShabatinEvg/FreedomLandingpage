@@ -9,6 +9,7 @@
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul,
@@ -35,6 +36,18 @@ html,
 body {
     height: 100%;
     line-height: 1;
-    font-family: Manrope;
-    color: #333333;
+}
+
+textarea,
+button,
+input {
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+    background-color: inherit;
 }
