@@ -499,7 +499,32 @@ body {
 }
 
 /*------------------------------------------------------------------*/
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #14171A;
+}
 
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer__logo {}
+
+.footer__social {}
+
+.social {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.social__item {}
+
+.social__link {}
 
 /*------------------------------------------------------------------*/
 
